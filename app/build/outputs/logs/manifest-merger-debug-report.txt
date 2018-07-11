@@ -1,0 +1,251 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d913a627d73fb12a9df842774b81bf63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\240cc4faf360c878072d8a1e5bb763fe\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df10a901cb7a15eab03fdd90473ab25f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\33edc5db88925597fa4e2876a884bc35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\06bdf9712355c3dd9bb5c06b48e734f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fbf0702cf66c7d8437094e64d5ed9466\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e9cf9a453af75d79d29259b446763e4b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\12b84ba348cdd991340aa684dc3fdc39\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1d4b1808e9b60ebcc0f48abc8c77591f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5a945cb3413a3aaaabb1fc845e05dc53\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8087bac61df3b587022596c217219e0c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f99322aa57882add40dfb41f2f11d80c\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:1-81:12
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:5:5-70
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:5:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:8:5-85
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:8:22-82
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:9:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:17:22-76
+application
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:19:5-79:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\240cc4faf360c878072d8a1e5bb763fe\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\240cc4faf360c878072d8a1e5bb763fe\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:25:9-40
+activity#prakshal.remogo.MainActivity
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:26:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:30:27-74
+receiver#prakshal.remogo.SIMTestReceiver
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:34:9-44:20
+	android:enabled
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:36:13-35
+	android:permission
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:37:13-75
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:35:13-44
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.SCREEN_ON+category:name:android.intent.category.DEFAULT
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:38:13-43:29
+	android:priority
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:38:28-50
+action#android.intent.action.SCREEN_ON
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:39:17-74
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:39:25-71
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:40:25-76
+category#android.intent.category.DEFAULT
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:42:27-73
+receiver#prakshal.remogo.SmsListener
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:45:9-49:20
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:45:19-46
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:46:13-48:29
+	android:priority
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:46:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:47:17-82
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:47:25-79
+receiver#prakshal.remogo.MainActivity$DemoAdminReceiver
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:50:9-60:20
+	android:permission
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:52:13-70
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:51:13-59
+meta-data#android.app.device_admin
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:53:13-55:52
+	android:resource
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:55:17-49
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:54:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:57:13-59:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:58:25-79
+receiver#prakshal.remogo.SimChangedReceiver
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:61:9-65:20
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:61:19-53
+intent-filter#action:name:android.intent.action.SIM_STATE_CHANGED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:62:13-64:29
+action#android.intent.action.SIM_STATE_CHANGED
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:63:17-82
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:63:25-79
+service#prakshal.remogo.smsintentservice
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:67:9-69:40
+	android:exported
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:68:13-45
+service#prakshal.remogo.compSIM
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:70:9-72:40
+	android:exported
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:71:13-36
+activity#prakshal.remogo.sendActivitymenu
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:74:9-54
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:74:19-51
+activity#prakshal.remogo.about
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:75:9-43
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:75:19-40
+activity#prakshal.remogo.Login
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:76:9-43
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:76:19-40
+activity#prakshal.remogo.addnoactivity
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:77:9-50
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:77:19-48
+activity#prakshal.remogo.sendActivity
+ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:78:9-50
+	android:name
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml:78:19-47
+uses-sdk
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d913a627d73fb12a9df842774b81bf63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d913a627d73fb12a9df842774b81bf63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\240cc4faf360c878072d8a1e5bb763fe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\240cc4faf360c878072d8a1e5bb763fe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df10a901cb7a15eab03fdd90473ab25f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df10a901cb7a15eab03fdd90473ab25f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\33edc5db88925597fa4e2876a884bc35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\33edc5db88925597fa4e2876a884bc35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\06bdf9712355c3dd9bb5c06b48e734f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\06bdf9712355c3dd9bb5c06b48e734f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fbf0702cf66c7d8437094e64d5ed9466\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fbf0702cf66c7d8437094e64d5ed9466\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e9cf9a453af75d79d29259b446763e4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e9cf9a453af75d79d29259b446763e4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\12b84ba348cdd991340aa684dc3fdc39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\12b84ba348cdd991340aa684dc3fdc39\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1d4b1808e9b60ebcc0f48abc8c77591f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1d4b1808e9b60ebcc0f48abc8c77591f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5a945cb3413a3aaaabb1fc845e05dc53\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5a945cb3413a3aaaabb1fc845e05dc53\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8087bac61df3b587022596c217219e0c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8087bac61df3b587022596c217219e0c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f99322aa57882add40dfb41f2f11d80c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bhargav Shah\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f99322aa57882add40dfb41f2f11d80c\AndroidManifest.xml:20:5-44
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Remogo\MyApplication\app\src\main\AndroidManifest.xml
