@@ -1,4 +1,4 @@
-#Wed Jul 11 16:00:09 IST 2018
-base.0=E\:\\Remogo\\MyApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\77
+#Thu Jul 19 01:13:27 IST 2018
+base.0=D\:\\AndroidWork\\Remogo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 path.0=classes.dex
 renamed.0=classes.dex

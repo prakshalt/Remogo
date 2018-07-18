@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Remogo\MyApplication\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="E:\Remogo\MyApplication\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidWork\Remogo\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\AndroidWork\Remogo\app\src\debug\jniLibs"/></dataSet></merger>

@@ -35,7 +35,7 @@ public class compSIM extends Service {
         //Toast.makeText(this, "Service Started", Toast.LENGTH_LONG).show();
         TelephonyManager tManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
         try {
-            settings = getSharedPreferences("app_pwd", 0);
+            settings = getSharedPreferences("app_pwd", Context.MODE_PRIVATE);
             notify=settings.getBoolean("notify",false);
             oldsim = settings.getString("Sim", "DEFAULT");
             simstatus = tManager.getSimState();
@@ -71,8 +71,9 @@ public class compSIM extends Service {
                         sentIntent, deliveryIntent);*/
                 } else {
                     //Toast.makeText(this, "New SIM", Toast.LENGTH_LONG).show();
+                    Log.i("SIM Changed","in else");
                     SmsManager smsMngr = SmsManager.getDefault();
-                    settings=getSharedPreferences("app_pwd",0);
+                    settings=getSharedPreferences("app_pwd",Context.MODE_PRIVATE);
                     String num1=settings.getString("num1","0");
                     if(!(num1.isEmpty()))
                     {
