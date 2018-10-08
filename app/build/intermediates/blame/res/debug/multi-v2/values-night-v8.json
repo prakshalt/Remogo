@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidWork\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\praks\\Documents\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nirma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\2e6b0cef8ed4b67f1cb05d40232abcd1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\praks\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\004d46cd3908ba8b6754228ce8798ead\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

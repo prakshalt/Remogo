@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidWork\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "C:\\Users\\praks\\Documents\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nirma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\2e6b0cef8ed4b67f1cb05d40232abcd1\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,1904",
-                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
-                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,1984"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nirma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\82d590890eeb4d4a68c299cd35d9e7c4\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\praks\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9bc6fd480507c854cbfaa569902d6682\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1989",
                         "endColumns": "100",
                         "endOffsets": "2085"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\praks\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\004d46cd3908ba8b6754228ce8798ead\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,1904",
+                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,1984"
                     }
                 }
             ]

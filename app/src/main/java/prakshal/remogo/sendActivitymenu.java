@@ -30,21 +30,23 @@ public class sendActivitymenu extends AppCompatActivity {
         Button ring=(Button) findViewById(R.id.ringbtn) ;
         Button rem_net=(Button)findViewById(R.id.remnet);
         Button rem_lock=(Button)findViewById(R.id.rem_lock_btn);
-       txtcname = (EditText) findViewById(R.id.editText2);
+        Button rem_wipe=(Button)findViewById(R.id.rem_wipe);
+        Button rem_call_log=(Button)findViewById(R.id.rem_call_log);
+        txtcname = (EditText) findViewById(R.id.editText2);
         Log.i("here","in");
-     //   Intent int1 = getIntent();
+        //   Intent int1 = getIntent();
 
         //Bundle extras = getIntent().getExtras();
-      //  if (extras != null) {
+        //  if (extras != null) {
         phoneNo= getIntent().getStringExtra("phoneNo");
         Log.i("phone",phoneNo);
         password=getIntent().getStringExtra("pwd");
-            //The key argument here must match that used in the other activity
-      //  }
-     //  Log.i("phoneno",phoneNo);
-     //   Log.i("pwd",password);
-      //  txtphoneNo = (EditText) findViewById(R.id.editText);
-      //  pwd=(EditText) findViewById(R.id.editText3);
+        //The key argument here must match that used in the other activity
+        //  }
+        //  Log.i("phoneno",phoneNo);
+        //   Log.i("pwd",password);
+        //  txtphoneNo = (EditText) findViewById(R.id.editText);
+        //  pwd=(EditText) findViewById(R.id.editText3);
         rem_con.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 final AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.9F);
@@ -84,18 +86,34 @@ public class sendActivitymenu extends AppCompatActivity {
                 remotelock();
             }
         });
+        rem_wipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.9F);
+                v.startAnimation(buttonClick);
+                remotewipe();
+            }
+        });
 
+        rem_call_log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.9F);
+                v.startAnimation(buttonClick);
+                remotecalllog();
+            }
+        });
     }
     protected void remotelock(){
-      //  phoneNo = txtphoneNo.getText().toString();
-       // password=pwd.getText().toString();
+        //  phoneNo = txtphoneNo.getText().toString();
+        // password=pwd.getText().toString();
      /*   if(phoneNo.isEmpty())
         {
             Toast.makeText(this,"Please enter phone no",Toast.LENGTH_SHORT).show();
             Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vib.vibrate(500);
         }*/
-       // phoneNo="91"+phoneNo;
+        // phoneNo="91"+phoneNo;
         try {
             Log.i("no",phoneNo);
             sms.sendTextMessage(phoneNo, null, phoneNo+":\n"+password+"4", null, null);
@@ -104,8 +122,8 @@ public class sendActivitymenu extends AppCompatActivity {
         }
     }
     protected void rngphone(){
-       // phoneNo = txtphoneNo.getText().toString();
-       // password=pwd.getText().toString();
+        // phoneNo = txtphoneNo.getText().toString();
+        // password=pwd.getText().toString();
       /*  if(phoneNo.isEmpty())
         {
             Toast.makeText(this,"Please enter phone no",Toast.LENGTH_SHORT).show();
@@ -120,6 +138,23 @@ public class sendActivitymenu extends AppCompatActivity {
             Log.i("sms", "Exception: " + e);
         }
     }
+    protected void remotewipe(){
+        // phoneNo = txtphoneNo.getText().toString();
+        // password=pwd.getText().toString();
+      /*  if(phoneNo.isEmpty())
+        {
+            Toast.makeText(this,"Please enter phone no",Toast.LENGTH_SHORT).show();
+            Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            vib.vibrate(500);
+        }*/
+        //phoneNo="91"+phoneNo;
+        try {
+
+            sms.sendTextMessage(phoneNo, null, phoneNo+":\n"+password+"6", null, null);
+        }catch(Exception e){
+            Log.i("sms", "Exception: " + e);
+        }
+    }
     protected void sendSMSMessage() {
         //phoneNo = txtphoneNo.getText().toString();
         //password=pwd.getText().toString();
@@ -128,9 +163,8 @@ public class sendActivitymenu extends AppCompatActivity {
             Toast.makeText(this,"Please enter phone no",Toast.LENGTH_SHORT).show();
             Vibrator vib1 = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vib1.vibrate(500);
-
         }*/
-       // phoneNo="91"+phoneNo;
+        // phoneNo="91"+phoneNo;
         try {
 
             sms.sendTextMessage(phoneNo, null, phoneNo+":\n"+password+"1", null, null);
@@ -157,6 +191,23 @@ public class sendActivitymenu extends AppCompatActivity {
             Log.i("sms", "Exception: " + e);
         }
     }
+    protected void remotecalllog(){
+        //  phoneNo = txtphoneNo.getText().toString();
+        // password=pwd.getText().toString();
+     /*   if(phoneNo.isEmpty())
+        {
+            Toast.makeText(this,"Please enter phone no",Toast.LENGTH_SHORT).show();
+            Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            vib.vibrate(500);
+        }*/
+        // phoneNo="91"+phoneNo;
+        try {
+            Log.i("no",phoneNo);
+            sms.sendTextMessage(phoneNo, null, phoneNo+":\n"+password+"7", null, null);
+        }catch(Exception e){
+            Log.i("sms", "Exception: " + e);
+        }
+    }
     protected void sendcontact(){
         //phoneNo = txtphoneNo.getText().toString();
         //password=pwd.getText().toString();
@@ -166,7 +217,7 @@ public class sendActivitymenu extends AppCompatActivity {
             Vibrator vib2 = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vib2.vibrate(500);
         }*/
-       // phoneNo="91"+phoneNo;
+        // phoneNo="91"+phoneNo;
         contact = txtcname.getText().toString();
         if(contact.isEmpty())
         {
@@ -181,12 +232,9 @@ public class sendActivitymenu extends AppCompatActivity {
         /*try {
             SmsReceiver.bindListener(new SmsListener() {
                 public void messageReceived(String sender, String messageText) {
-
                 }
             });
-
         }catch (Exception e){
-
         }*/
     }
 
