@@ -486,6 +486,9 @@ public class CountryDetails {
             "263"
 
     };
+    public static String[] sendmenu=new String[]{"Ringer","Retrieve Contact","Find my phone","Lock","Network Status","Wipe","Call log","Image capture","Audio record"};
+
+    public static String[] getSendmenu(){return sendmenu;}
 
     public static String[] getCountry() {
         return country;

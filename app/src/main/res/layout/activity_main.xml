@@ -1,68 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="295dp"
+        android:layout_alignStart="@id/autocompletetvrelativeLayout"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_below="@id/autocompletetvrelativeLayout">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Mobile number"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="24sp" />
+
+
+        <ImageButton
+            android:id="@+id/contact_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#FFF"
+            android:layout_toEndOf="@id/editText"
+            android:src="@drawable/ic_contacts_black_24dp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pwrelativeLayout"
+        android:layout_width="295dp"
+        android:layout_alignStart="@id/autocompletetvrelativeLayout"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_below="@id/relativeLayout">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:hint="Enter password here"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="24sp" />
+
+
+        <ImageButton
+            android:id="@+id/remove_pwd_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#FFF"
+            android:layout_toEndOf="@id/editText3"
+            android:src="@drawable/ic_close_black_24dp" />
+
+
+    </RelativeLayout>
     <Button
-        android:id="@+id/sendbtn"
+        android:id="@+id/submit"
+        style="@style/style_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="115dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        style="@style/style_btn"
+        android:layout_marginBottom="60dp"
         android:fontFamily="serif"
-        android:text="Send"
+        android:text="Submit"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignStart="@id/autocompletetvrelativeLayout"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.34" />
+        android:layout_below="@id/contactrelativeLayout"/>
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+    <RelativeLayout
+        android:id="@+id/autocompletetvrelativeLayout"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Sim Change notify"
-        android:fontFamily="serif"
-        style="@style/style_btn"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sendbtn"
-        app:layout_constraintVertical_bias="0.169" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
 
-    <Button
-        android:id="@+id/addnobtn"
-        style="@style/style_btn"
-        android:layout_width="wrap_content"
+        <AutoCompleteTextView
+            android:layout_width="255dp"
+            android:textSize="24sp"
+            android:singleLine="false"
+            android:layout_height="50dp"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:hint="Search country here"
+            android:id="@+id/suggestion_box">
+            <requestFocus/>
+        </AutoCompleteTextView>
+
+
+
+        <ImageButton
+            android:id="@+id/remove_autocomplete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#FFF"
+            android:layout_toEndOf="@id/suggestion_box"
+            android:src="@drawable/ic_close_black_24dp" />
+
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/sendmenuspinner"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:spinnerMode="dialog"
+        android:prompt="@string/send_menu_spinner_hint"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="serif"
-        android:text="Add/Edit Numbers"
-        android:textAllCaps="false"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1"
-        app:layout_constraintVertical_bias="0.339" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_marginBottom="40dp"
+        android:layout_alignStart="@id/autocompletetvrelativeLayout"
+        android:layout_below="@id/pwrelativeLayout"/>
+    <RelativeLayout
+        android:id="@+id/contactrelativeLayout"
+        android:layout_width="295dp"
+        android:layout_alignStart="@id/autocompletetvrelativeLayout"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_below="@id/sendmenuspinner">
+
+        <EditText
+            android:id="@+id/contact_name_to_retrieve"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:hint="Enter contact name"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="24sp" />
+
+
+        <ImageButton
+            android:id="@+id/remove_contact_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#FFF"
+            android:layout_toEndOf="@id/contact_name_to_retrieve"
+            android:src="@drawable/ic_close_black_24dp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

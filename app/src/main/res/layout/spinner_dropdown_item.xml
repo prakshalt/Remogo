@@ -3,8 +3,8 @@
     android:id="@android:id/text1"
     style="?android:attr/spinnerDropDownItemStyle"
     android:layout_width="match_parent"
+    android:layout_weight="1"
     android:layout_height="match_parent"
-    android:textSize="20sp"
-    android:textStyle="italic"
+    android:textSize="24sp"
     android:textColor="#ff0000"
     android:background="@drawable/spinner_item_border"/>

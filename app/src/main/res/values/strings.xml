@@ -15,7 +15,8 @@
 
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>
-
+    <string name="country_spinner_hint">Select country for country code</string>
+    <string name="send_menu_spinner_hint">Select function to perform on remote device</string>
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
@@ -74,4 +75,5 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

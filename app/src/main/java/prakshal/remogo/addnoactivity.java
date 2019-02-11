@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class addnoactivity extends AppCompatActivity {
+public class addnoactivity extends BaseDrawerActivity {
     int numberOfLines=0;
     SharedPreferences settings;
     String number;
@@ -23,7 +23,8 @@ public class addnoactivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addno);
+        //setContentView(R.layout.activity_addno);
+        getLayoutInflater().inflate(R.layout.activity_addno, frameLayout);
         checkprevious();
 
         Button Submit= (Button)findViewById(R.id.sub_btn);
@@ -142,4 +143,11 @@ public class addnoactivity extends AppCompatActivity {
         if(!(n2.isEmpty()))
             e2.setText(n2);
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // to check current activity in the navigation drawer
+        navigationView.getMenu().getItem(3).setChecked(true);
+    }
+
 }

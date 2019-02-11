@@ -16,11 +16,22 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
         android:allowBackup="true"
@@ -30,7 +41,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+
+        <!--
+            <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="659408033318-r3gpnbannmr348thcqqeceb8d1kq76qv.apps.googleusercontent.com" />
+
+        <meta-data
+        android:name="com.google.android.gms.drive"
+        android:value="@integer/google_play_services_version" />
+        -->
         <activity android:name="prakshal.remogo.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,7 +77,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="prakshal.remogo.MainActivity$DemoAdminReceiver"
+            android:name="prakshal.remogo.DemoAdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
             <meta-data
                 android:name="android.app.device_admin"
@@ -71,19 +92,71 @@
                 <action android:name="android.intent.action.SIM_STATE_CHANGED" />
             </intent-filter>
         </receiver>
+        <receiver android:name="prakshal.remogo.NetworkChangeReceiver" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
 
+        <service
+            android:name="prakshal.remogo.GCMService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
         <service
             android:name="prakshal.remogo.smsintentservice"
             android:exported="false" />
         <service
             android:name="prakshal.remogo.compSIM"
             android:exported="false" />
+        <service
+            android:name="prakshal.remogo.CameraService"
+            android:exported="false" />
+        <service
+            android:name="prakshal.remogo.Audiorecservice"
+            android:exported="false" />
+        <service
+            android:name="prakshal.remogo.DriveUploadService"
+            android:exported="false" />
+        <service
+            android:name="prakshal.remogo.NetCheckerService"
+            android:exported="false" />
 
-        <activity android:name="prakshal.remogo.sendActivitymenu" />
         <activity android:name="prakshal.remogo.about" />
         <activity android:name="prakshal.remogo.Login" />
         <activity android:name="prakshal.remogo.addnoactivity" />
-        <activity android:name="prakshal.remogo.sendActivity" />
+        <activity
+            android:name="prakshal.remogo.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="prakshal.remogo.DriveSetup" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

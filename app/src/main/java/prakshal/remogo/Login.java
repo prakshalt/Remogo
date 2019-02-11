@@ -1,7 +1,10 @@
 package prakshal.remogo;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +32,30 @@ public class Login extends AppCompatActivity {
         Button submit = (Button)findViewById(R.id.submitbtn);
         pwd1=(EditText)findViewById(R.id.setpwd);
         confpwd1=(EditText)findViewById(R.id.confpwd);
+        AlertDialog.Builder builder;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
+        } else {
+            builder = new AlertDialog.Builder(this);
+        }
+        builder.setTitle("Set password(Only one time)")
+                .setMessage("Set password for this device so that you can use it to perform remote functions in the future(App cannot work without it,please refer to help)")
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                })
+                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+                        homeIntent.addCategory( Intent.CATEGORY_HOME );
+                        homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(homeIntent);
+                        Toast.makeText(Login.this,"You may have not set the password",Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 final AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.9F);

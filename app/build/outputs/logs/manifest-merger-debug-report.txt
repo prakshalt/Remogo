@@ -1,251 +1,428 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\004d46cd3908ba8b6754228ce8798ead\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c2ae7735e0fceac11f56ea2d5518a60f\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eb35ba1fb97c82d1e07d124a6b374f42\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5f8d1fa5ddc30f195120516436ba07a4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\20d8169fdad14f9ae2eee00b50550f00\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9cf8d3421bb82004f4b191700f3ec484\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1e96d34d3a527c6a70fb6009875fd76\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9bc6fd480507c854cbfaa569902d6682\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3523cadf483672d2223e792b4dad0dd3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\211259391e18f6f423bd363e1e40fec8\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ffb739768bc7be789d5231d1b0d7a5bd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\19639070f84476491f4268275bcab850\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+MERGED from [com.android.support:design:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\design-27.0.0.aar\03c2c87bf189e9e408d6b108232ebfe9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\a5bb6eb2e95001118c81cf3c129e5955\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e51cf9afb593d436ce94e16f86cc2abb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\020a9021e193e5e14660d97a1a5cb4ca\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\a5128ca85332d67ec56a72e965ef52b4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e0ea1ec68c301893a47ef19e2004e9e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5000bee86dcf35c498dd979a9df4114f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\5a8ddc28459d1b87e8562dbbde2aa21c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\d3a846aa9f8bdf4d12408a5e04103f97\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\d8c2d5d5dd423fb9a5888d471b9c08aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\32aa301bd4e5f3cb26b3d665e022f9d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\e10584bffd80a24aca1aa5298f85cbae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.0.aar\19905513cf8bc7911237196ee7d7f239\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\transition-27.0.0.aar\50d2af1a70f574e2521259f30ed6fe44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\6fffefa6417a25ce3e470a9fa01cafd7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\010e05651b107fcacdebc77f8c0cd102\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\2c84cf28032758569bc5d4eccd9f57c8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
 	package
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:1-81:12
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:5:5-70
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:5:5-70
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:5:22-67
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:5:22-67
 uses-permission#android.permission.READ_SMS
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:8:5-85
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:8:5-85
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:8:22-82
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:8:22-82
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:9:5-72
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:9:5-72
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:9:22-69
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:9:22-69
 uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:11:5-75
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:11:22-72
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:15:22-71
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:14:5-79
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:14:22-76
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:19:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:15:5-76
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:20:5-76
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:15:22-73
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:20:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:16:5-76
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:21:5-76
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:16:22-73
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:21:22-73
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:17:5-79
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:23:22-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:24:22-68
 application
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:19:5-79:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c2ae7735e0fceac11f56ea2d5518a60f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c2ae7735e0fceac11f56ea2d5518a60f\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:28:5-123:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e51cf9afb593d436ce94e16f86cc2abb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e51cf9afb593d436ce94e16f86cc2abb\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e0ea1ec68c301893a47ef19e2004e9e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e0ea1ec68c301893a47ef19e2004e9e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5000bee86dcf35c498dd979a9df4114f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5000bee86dcf35c498dd979a9df4114f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:33:9-35
 	android:label
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:31:9-41
 	android:roundIcon
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:32:9-54
 	android:icon
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:30:9-43
 	android:allowBackup
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:29:9-35
 	android:theme
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:34:9-59
 activity#prakshal.remogo.MainActivity
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:45:9-51:20
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:45:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:49:27-74
 receiver#prakshal.remogo.SIMTestReceiver
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:34:9-44:20
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:53:9-63:20
 	android:enabled
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:36:13-35
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:55:13-35
 	android:permission
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:37:13-75
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:56:13-75
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:54:13-44
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.SCREEN_ON+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:38:13-43:29
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:57:13-62:29
 	android:priority
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:38:28-50
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:57:28-50
 action#android.intent.action.SCREEN_ON
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:39:17-74
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:58:17-74
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:39:25-71
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:58:25-71
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:40:17-79
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:59:17-79
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:40:25-76
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:59:25-76
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:42:17-76
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:61:17-76
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:42:27-73
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:61:27-73
 receiver#prakshal.remogo.SmsListener
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:45:9-49:20
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:64:9-68:20
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:45:19-46
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:64:19-46
 intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:46:13-48:29
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:65:13-67:29
 	android:priority
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:46:28-50
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:65:28-50
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:47:17-82
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:66:17-82
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:47:25-79
-receiver#prakshal.remogo.MainActivity$DemoAdminReceiver
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:50:9-60:20
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:66:25-79
+receiver#prakshal.remogo.DemoAdminReceiver
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:69:9-79:20
 	android:permission
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:52:13-70
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:71:13-70
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:51:13-59
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:70:13-46
 meta-data#android.app.device_admin
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:53:13-55:52
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:72:13-74:52
 	android:resource
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:55:17-49
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:74:17-49
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:54:17-56
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:73:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:57:13-59:29
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:76:13-78:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:58:17-82
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:77:17-82
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:58:25-79
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:77:25-79
 receiver#prakshal.remogo.SimChangedReceiver
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:61:9-65:20
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:80:9-84:20
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:61:19-53
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:80:19-53
 intent-filter#action:name:android.intent.action.SIM_STATE_CHANGED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:62:13-64:29
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:81:13-83:29
 action#android.intent.action.SIM_STATE_CHANGED
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:63:17-82
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:82:17-82
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:63:25-79
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:82:25-79
+receiver#prakshal.remogo.NetworkChangeReceiver
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:85:9-89:20
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:85:19-56
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:86:13-88:29
+	android:priority
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:86:28-50
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:87:17-79
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:87:25-76
+service#prakshal.remogo.GCMService
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:90:9-96:19
+	android:exported
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:92:13-36
+	android:permission
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:91:13-93
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:90:18-44
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:93:13-95:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:94:17-86
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:94:25-84
 service#prakshal.remogo.smsintentservice
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:67:9-69:40
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:97:9-99:40
 	android:exported
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:69:13-37
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:99:13-37
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:68:13-45
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:98:13-45
 service#prakshal.remogo.compSIM
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:70:9-72:40
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:100:9-102:40
 	android:exported
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:72:13-37
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:102:13-37
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:71:13-36
-activity#prakshal.remogo.sendActivitymenu
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:74:9-54
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:101:13-36
+service#prakshal.remogo.CameraService
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:103:9-105:40
+	android:exported
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:105:13-37
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:74:19-51
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:104:13-42
+service#prakshal.remogo.Audiorecservice
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:106:9-108:40
+	android:exported
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:107:13-44
+service#prakshal.remogo.DriveUploadService
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:109:9-111:40
+	android:exported
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:110:13-47
+service#prakshal.remogo.NetCheckerService
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:112:9-114:40
+	android:exported
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:113:13-46
 activity#prakshal.remogo.about
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:75:9-43
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:116:9-43
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:75:19-40
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:116:19-40
 activity#prakshal.remogo.Login
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:76:9-43
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:117:9-43
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:76:19-40
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:117:19-40
 activity#prakshal.remogo.addnoactivity
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:77:9-50
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:118:9-51
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:77:19-48
-activity#prakshal.remogo.sendActivity
-ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:78:9-50
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:118:19-48
+activity#prakshal.remogo.SettingsActivity
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:119:9-121:63
+	android:label
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:121:13-60
 	android:name
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml:78:19-47
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:120:13-45
+activity#prakshal.remogo.DriveSetup
+ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:122:9-48
+	android:name
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml:122:19-45
 uses-sdk
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\004d46cd3908ba8b6754228ce8798ead\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\004d46cd3908ba8b6754228ce8798ead\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c2ae7735e0fceac11f56ea2d5518a60f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c2ae7735e0fceac11f56ea2d5518a60f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eb35ba1fb97c82d1e07d124a6b374f42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eb35ba1fb97c82d1e07d124a6b374f42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5f8d1fa5ddc30f195120516436ba07a4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5f8d1fa5ddc30f195120516436ba07a4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\20d8169fdad14f9ae2eee00b50550f00\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\20d8169fdad14f9ae2eee00b50550f00\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9cf8d3421bb82004f4b191700f3ec484\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9cf8d3421bb82004f4b191700f3ec484\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1e96d34d3a527c6a70fb6009875fd76\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1e96d34d3a527c6a70fb6009875fd76\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9bc6fd480507c854cbfaa569902d6682\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9bc6fd480507c854cbfaa569902d6682\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3523cadf483672d2223e792b4dad0dd3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3523cadf483672d2223e792b4dad0dd3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\211259391e18f6f423bd363e1e40fec8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\211259391e18f6f423bd363e1e40fec8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ffb739768bc7be789d5231d1b0d7a5bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ffb739768bc7be789d5231d1b0d7a5bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\19639070f84476491f4268275bcab850\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\19639070f84476491f4268275bcab850\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\design-27.0.0.aar\03c2c87bf189e9e408d6b108232ebfe9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\design-27.0.0.aar\03c2c87bf189e9e408d6b108232ebfe9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\a5bb6eb2e95001118c81cf3c129e5955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\a5bb6eb2e95001118c81cf3c129e5955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e51cf9afb593d436ce94e16f86cc2abb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e51cf9afb593d436ce94e16f86cc2abb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\020a9021e193e5e14660d97a1a5cb4ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\020a9021e193e5e14660d97a1a5cb4ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\a5128ca85332d67ec56a72e965ef52b4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\a5128ca85332d67ec56a72e965ef52b4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e0ea1ec68c301893a47ef19e2004e9e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e0ea1ec68c301893a47ef19e2004e9e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5000bee86dcf35c498dd979a9df4114f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5000bee86dcf35c498dd979a9df4114f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\5a8ddc28459d1b87e8562dbbde2aa21c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\5a8ddc28459d1b87e8562dbbde2aa21c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\d3a846aa9f8bdf4d12408a5e04103f97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\d3a846aa9f8bdf4d12408a5e04103f97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\d8c2d5d5dd423fb9a5888d471b9c08aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\d8c2d5d5dd423fb9a5888d471b9c08aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\32aa301bd4e5f3cb26b3d665e022f9d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\32aa301bd4e5f3cb26b3d665e022f9d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\e10584bffd80a24aca1aa5298f85cbae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\e10584bffd80a24aca1aa5298f85cbae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.0.aar\19905513cf8bc7911237196ee7d7f239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.0.aar\19905513cf8bc7911237196ee7d7f239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\transition-27.0.0.aar\50d2af1a70f574e2521259f30ed6fe44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\transition-27.0.0.aar\50d2af1a70f574e2521259f30ed6fe44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\6fffefa6417a25ce3e470a9fa01cafd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\6fffefa6417a25ce3e470a9fa01cafd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\010e05651b107fcacdebc77f8c0cd102\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\010e05651b107fcacdebc77f8c0cd102\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\2c84cf28032758569bc5d4eccd9f57c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\2c84cf28032758569bc5d4eccd9f57c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\praks\Documents\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\praks\StudioProjects\Remogo\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\35479492d769b93dcb7b684d541e9e3b\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\a8b186557c9b9a7120e85e2e204f20e0\AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\116fe2ce518cf0ddde65451118d86d60\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\070f06c4ab7c61bcdcb1cda370f9d277\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a419cd62a4b84c0e24949d90997251ab\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\praks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\dd16facfc7f133a59d9dadb4d8db8bdb\AndroidManifest.xml:26:13-58

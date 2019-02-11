@@ -2,6 +2,7 @@ package prakshal.remogo;
 
 import android.Manifest;
 import android.app.IntentService;
+import android.app.NotificationManager;
 import android.app.admin.DevicePolicyManager;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +18,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Handler;
 import android.provider.CallLog;
 import android.provider.ContactsContract;
@@ -36,21 +38,59 @@ public class smsintentservice extends IntentService {
     SharedPreferences settings;
     SmsManager sms = SmsManager.getDefault();
     protected LocationManager locationManager;
-    public void setRinger2Silent()
+    NotificationManager mNotificationManager ;
+
+    AudioManager audioManager;
+
+  /*  public void setRinger2Silent()
     {
-        AudioManager audioManager= (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
+        if(Build.VERSION.SDK_INT<23) {
+            if (audioManager == null)
+                audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+            audioManager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
+        }
+        else   if(Build.VERSION.SDK_INT>=23) {
+            mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            mNotificationManager.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_NONE);
+
+        }
     }
+    public void setRinger2Vibrate()
+    {
+        if(audioManager==null)
+            audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+       audioManager.setRingerMode(AudioManager.RINGER_MODE_VIBRATE);
+        audioManager.setStreamVolume(AudioManager.STREAM_RING, 0, AudioManager.FLAG_VIBRATE);
+       // int media_max_volume = audioManager.getStreamMaxVolume(AudioManager.STREAM_RING);
+        //int min_vol=audioManager.getS
+        //audioManager.setStreamVolume(AudioManager.STREAM_RING,2,AudioManager.FLAG_REMOVE_SOUND_AND_VIBRATE);
+    }*/
     public void setRinger2Normal()
     {
-        AudioManager audioManager= (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
+        if(audioManager==null)
+            audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
         audioManager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
+        int media_max_volume = audioManager.getStreamMaxVolume(AudioManager.STREAM_RING);
+        audioManager.setStreamVolume(AudioManager.STREAM_RING,media_max_volume,AudioManager.FLAG_SHOW_UI);
     }
     public boolean IsRingerSilent()
     {
-        AudioManager audioManager =
-                (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
-        return audioManager.getRingerMode() == AudioManager.RINGER_MODE_SILENT || audioManager.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE;
+        if(audioManager==null)
+            audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        return audioManager.getRingerMode() == AudioManager.RINGER_MODE_SILENT ;
+    }
+    public boolean IsRingerNormal()
+    {
+        if(audioManager==null)
+            audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        return audioManager.getRingerMode() == AudioManager.RINGER_MODE_NORMAL ;
+    }
+    public boolean IsRingerVibrate()
+    {
+        if(audioManager==null)
+            audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        return audioManager.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE ;
+
     }
 
 
@@ -93,6 +133,16 @@ public class smsintentservice extends IntentService {
             if(msg.substring(pwlen,pwlen+1).equals("4"))
             {
                 mDevicePolicyManager.lockNow();
+            }
+            if(msg.substring(pwlen,pwlen+1).equals("8"))
+            {
+                Intent camintent= new Intent(this, CameraService.class);
+                this.startService(camintent);
+            }
+            if(msg.substring(pwlen,pwlen+1).equals("9"))
+            {
+                Intent audintent= new Intent(this, Audiorecservice.class);
+                this.startService(audintent);
             }
             if(msg.substring(pwlen,pwlen+1).equals("6"))
             {
@@ -139,18 +189,22 @@ public class smsintentservice extends IntentService {
 
             if(msg.substring(pwlen,pwlen+1).equals("1"))
             {
-                if(IsRingerSilent())
-                {
-                    setRinger2Normal();
-                }
-                else
-                {
-                    setRinger2Silent();
-                }
+               //if(!IsRingerNormal())
+                   setRinger2Normal();
             }
+           /* if(msg.substring(pwlen,pwlen+1).equals("10"))
+            {
+                //if(!IsRingerSilent())
+                    setRinger2Silent();
+            }
+            if(msg.substring(pwlen,pwlen+1).equals("11"))
+            {
+               // if(!IsRingerVibrate())
+                    setRinger2Vibrate();
+            }*/
             if(msg.substring(pwlen,pwlen+1).equals("3"))
             {
-                if(IsRingerSilent())
+               // if(IsRingerSilent())
                 {
                     setRinger2Normal();
                 }

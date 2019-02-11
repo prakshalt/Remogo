@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\praks\\Documents\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\praks\\StudioProjects\\Remogo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\praks\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\004d46cd3908ba8b6754228ce8798ead\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\praks\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\a5bb6eb2e95001118c81cf3c129e5955\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
